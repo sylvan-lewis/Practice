@@ -1,6 +1,6 @@
 import openai
 #Free Tier API Key- Replace to run the code
-openai.api_key = "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"
+openai.api_key = "API-KEY-HERE"
 def simple_summarize(text):
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo",
