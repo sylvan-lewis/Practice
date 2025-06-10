@@ -2,7 +2,7 @@ import os
 import openai
 
 #Free Tier API Key- Replace to run the code
-openai.api_key = "API-KEY-HERE"
+#openai.api_key = "API-KEY-HERE"
 
 def summarize_and_extract(text):
     messages = [
